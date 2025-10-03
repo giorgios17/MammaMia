@@ -1,11 +1,11 @@
 HTML = """
-Don’t care about them all
-Cause all I want is to be loved
-And all I care about is you
-You’re stuck on me like a tattoo
-No, I don’t care about the pain
-I’ll walk through fire and through rain
+Listening to that song was a blast from the past for me
+The band is ready to take it away with their new hit song
+The old tune reminded her of childhood memories spent with family
+The local band hit the big time after their song went viral online
+Her new song really made a hit with the young audience
 """
+HTML = """
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,7 +22,7 @@ I’ll walk through fire and through rain
             padding: 0;
             width: 100%;
             height: 100%;
-            font-size: 2vh;
+            font-size: 2.2vh;
             font-family: 'Open Sans', Arial, sans-serif;
             color: white;
             background: url('https://i.postimg.cc/ry3p76HY/italian-seamless-free-vector-pattern3.png') center center repeat;
