@@ -1,10 +1,6 @@
+# static.py
+
 HTML = """
-Don’t care about them all
-Cause all I want is to be loved
-And all I care about is you
-You’re stuck on me like a tattoo
-No, I don’t care about the pain
-I’ll walk through fire and through rain
 <!DOCTYPE html>
 <html>
 <head>
@@ -79,7 +75,6 @@ I’ll walk through fire and through rain
             border-radius: 5px;
             overflow: hidden;
             width: 100%;
-
         }
         .provider-group label {
             display: flex;
@@ -92,11 +87,6 @@ I’ll walk through fire and through rain
         }
         .provider-group input[type="checkbox"] {
             margin-right: 1.5vh;
-            width: 4vh;
-            height: 4vh;
-        }
-        .provider-group input[type="checkbox"][id$="_mfp"] {
-            margin-left: 2.2vh;
             width: 4vh;
             height: 4vh;
         }
@@ -184,11 +174,11 @@ I’ll walk through fire and through rain
             <img src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/49647/pizza-emoji-clipart-md.png" alt="Logo">
         </div>
         <h1 class="name">Mamma Mia</h1>
-        <h2 class="version">v2.0.2</h2>
+        <h2 class="version">v2.0.1</h2>
         <div id="additionalText">
             <h2>This addon provides Movie, Series, Anime, and Live TV HTTPS Streams.<br> https://github.com/UrloMythus/MammaMia/</h2>
         </div>
-        <p class="description">🕵️‍♂️ = Mediaflowproxy might be needed <br>Select the box with this icon if you want to enable MFP for that source<br></p>
+        <p class="description">🕵️‍♂️ = Mediaflowproxy might be needed</p>
         <h3 class="gives">Select Providers:</h3>
         <form class="pure-form" id="provider-form">
             <div class="provider-group">
@@ -231,7 +221,6 @@ I’ll walk through fire and through rain
             <div class="provider-group">
                 <label for="streamingcommunity" class="provider-label">
                     <input type="checkbox" id="streamingcommunity"> StreamingCommunity 🕵️‍♂️
-                    <input type="checkbox" id="streamingcommunity_mfp" checked> 🕵️‍♂️
                 </label>
             </div>
              <div class="provider-group">
@@ -284,7 +273,6 @@ I’ll walk through fire and through rain
             "guardoserie": "GO",
             "guardaflix": "GF",
             "eurostreaming": "ES",
-            "streamingcommunity_mfp": "SC_MFP",
             "mediaflowproxy": "MFP"
         };
 
@@ -330,6 +318,4 @@ I’ll walk through fire and through rain
     </script>
 </body>
 </html>
-"""
-
 """
