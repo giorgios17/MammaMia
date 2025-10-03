@@ -5,7 +5,6 @@ And all I care about is you
 You’re stuck on me like a tattoo
 No, I don’t care about the pain
 I’ll walk through fire and through rain
-"""
 <!DOCTYPE html>
 <html>
 <head>
@@ -331,4 +330,6 @@ I’ll walk through fire and through rain
     </script>
 </body>
 </html>
+"""
+
 """
